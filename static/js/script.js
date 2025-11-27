@@ -156,31 +156,3 @@ function showError(message) {
 function hideError() {
     errorMessage.style.display = 'none';
 }
-```
-
----
-
-## 📁 Complete Project Structure
-```
-blood_group_detection/
-│
-├── app.py                                ← Main Flask app (provided)
-├── requirements.txt                      ← Dependencies (above)
-│
-├── blood_group_model_savedmodel/         ← Model folder from Colab
-│   ├── saved_model.pb
-│   ├── keras_metadata.pb
-│   ├── variables/
-│   │   ├── variables.data-00000-of-00001
-│   │   └── variables.index
-│   └── assets/
-│
-├── static/
-│   ├── css/
-│   │   └── style.css                     ← Styling (above)
-│   ├── js/
-│   │   └── script.js                     ← Frontend logic (above)
-│   └── uploads/                          ← Auto-created, leave empty
-│
-└── templates/
-    └── index.html                        ← Main page (above)
